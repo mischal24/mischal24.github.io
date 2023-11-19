@@ -3,7 +3,7 @@ html {
     color: #212121;
 }
 
-.promotion-buttons {
+button.promotion-buttons {
     color: #9C6DD9;
     border: none;
     border-radius: 50%;
