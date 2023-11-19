@@ -2,3 +2,11 @@ html {
     background-color: #F5FBEF;
     color: #212121;
 }
+
+.promotion-buttons {
+    color: #9C6DD9;
+    border: none;
+    border-radius: 50%;
+    width: 222.93px;
+    height: 222.93px;
+}
