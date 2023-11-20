@@ -3,8 +3,8 @@ html {
     color: #212121;
 }
 
-button.promotion-buttons {
-    background-color: #9C6DD9;
+.promotional {
+    color: #9C6DD9;
     border: none;
     border-radius: 50%;
     width: 222.93px;
