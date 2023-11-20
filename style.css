@@ -4,9 +4,17 @@ html {
 }
 
 .promotional {
-    color: #9C6DD9;
+    background-color: #9C6DD9;
     border: none;
     border-radius: 50%;
     width: 222.93px;
     height: 222.93px;
+}
+
+.intro-card {
+    background-color: #6DD99C;
+    color: #F5FBEF;
+    border-radius: 5%;
+    width: 479px;
+    height: 479px;
 }
