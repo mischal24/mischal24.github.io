@@ -3,7 +3,7 @@ html {
     color: #212121;
 }
 
-.promotional {
+.promotional-button {
     background-color: #9C6DD9;
     border: none;
     border-radius: 50%;
@@ -14,7 +14,7 @@ html {
 .intro-card {
     background-color: #6DD99C;
     color: #F5FBEF;
-    border-radius: 5%;
+    border-radius: 5px;
     width: 479px;
     height: 479px;
 }
