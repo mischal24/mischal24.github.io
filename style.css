@@ -1,20 +1,190 @@
+@font-face {
+    font-family: "Space";
+    src: url(assets/fonts/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Space-Medium";
+    src: url(assets/fonts/SpaceGrotesk-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Space-Bold";
+    src: url(assets/fonts/SpaceGrotesk-Bold.ttf);
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: #21202B;
+    background: #ffef0b;
+  }
+  
+  ::selection {
+    color: #21202B;
+    background: #ffef0b;
+  }
+
+html, body {
+    /* Margin & Padding */
+    margin: 0;
+
+    /* Scale */
+    width: 100%;
+    height: 100%;
+}
+
 html {
-    background-color: #F5FBEF;
-    color: #212121;
+    /* Colors */
+    background-color: #E9E9E9;
+    color: #21202B;
+
+    /* Font */
+    font-family: Space;
 }
 
-.promotional-button {
-    background-color: #9C6DD9;
+div {
+    /* Margin & Padding */
+    margin: 0;
+}
+
+.content {
+    /* Position & Display */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(25%);
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Resume */
+div.resume {
+    /* Margin & Padding */
+    margin: 4px;
+
+    /* Colors */
+    background-color: #21202B;
+    
+    /* Border */
+    border-radius: 7px;
+
+    /* Scale & Position */
+    width: 179px;
+    height: 179px;
+    transform: translateY(200px);
+}
+
+/* Intro Card */
+div.intro-card {
+    /* Margin & Padding */
+    margin: 4px;
+
+    /* Colors */
+    background-color: #177B6F;
+    
+    /* Border */
+    border-radius: 7px;
+
+    /* Scale & Position */
+    width: 379px;
+    height: 379px;
+}
+
+h1.intro-card, h2.intro-card {
+    /* Colors */
+    color: #E9E9E9;
+}
+
+h1.intro-card {
+    /* Font */
+    font-family: Space-Medium;
+
+    /* Scale & Position */
+    font-size: 101px;
+    transform: translate(17px, 117px);
+}
+
+h2.intro-card {
+    /* Scale & Position */
+    font-size: 17px;
+}
+
+#intro-line-1 {
+    /* Scale & Position */
+    transform: translate(20px, 5px);
+}
+
+#intro-line-2 {
+    /* Scale & Position */
+    transform: translate(160px, 155px) rotate(0.25turn);
+}
+
+/* Promotional */
+button.promotional {
+    /* Margin & Padding */
+    margin: 4px;
+
+    /* Colors */
+    background-color: #21202B;
+
+    /* Border */
     border: none;
-    border-radius: 50%;
-    width: 222.93px;
-    height: 222.93px;
+    border-radius: 7px;
+
+    /* Scale & Position */
+    width: 570px;
+    height: 206px;
 }
 
-.intro-card {
-    background-color: #6DD99C;
-    color: #F5FBEF;
-    border-radius: 5px;
-    width: 479px;
-    height: 479px;
+h1.promotional {
+    /* Margin & Padding */
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    /* Colors */
+    background-color: #E9E9E9;
+    color: #21202B;
+
+    /* Scale & Position */
+    width: 350px;
+    transform: translateX(-15px);
+
+    /* Border */
+    border-radius: 7px;
+
+    /* Font */
+    font-family: Space-Medium;
+}
+
+/* Footer */
+footer {
+    /* Margin & Padding */
+    margin: 4px;
+
+    /* Colors */
+    color: #CCCCCC;
+
+    /* Font */
+    font-family: Space-Bold;
+
+    /* Scale & Position */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1.footer {
+    /* Scale & Position */
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-height: 800px) {
+    footer {
+        /* Scale & Position */
+        position: relative;
+        transform: translateY(145px);
+    }
 }
